@@ -14,7 +14,8 @@ namespace HelloGitHub
             Console.WriteLine("Hello: " + name);
 
             Console.WriteLine("Press any key to continue...");
-            Console.ReadKey();
+            var number = Console.ReadLine();
+            Console.WriteLine(number);
             //add Car Class comment
            //Comment
 
